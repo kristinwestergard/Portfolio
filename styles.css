@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+
+*{
+    box-sizing: border-box; /*border box gör att man kan ställa in bredd och höjd utan att ev padding adderas */ 
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    
+    /*
+    För att centrera och begränsa bredd av innehåll till 1150 px. På alla sektioner:
+    margin: auto;
+    max-width: 1150px;
+    white-space: nowrap;
+    */
+
+}
+/*navigation */ 
+li, a{
+font-size: 20px;
+font-weight: 400;
+color: black;
+text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 35px 0 10px;
+    border-bottom: solid 1px black;
+    margin: auto;
+    max-width: 1150px;
+    white-space: nowrap;
+}
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+.navLinks{
+    list-style: none;
+}
+
+.navLinks li{
+   display: inline-block;
+    padding:0 15px 
+   
+}
+
+.navLinks li a{
+    transition: all 0.3s ease 0s;
+}
+
+.navLinks li a:hover{
+    color: #7e99a3;
+}
+
+/*startsida/Work */ 
+.work_start_wrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: #5F6a7e;
+    background-image: url("images/bg_img_start.png");
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    padding: 5%;
+
+    margin: 15px auto;
+    max-width: 1150px;
+    white-space: nowrap;
+}
+
+
+.work1 h1{
+    font-size: 25px;
+    }
+.work1 h1 span{
+font-size: 2.3em;
+}
+
+.ingress{
+    white-space: normal;
+    max-width: 450px;
+    padding: 30px 0;
+    font-size: 22px;
+    line-height: 130%;
+    margin-bottom: 50px;
+}
+
+.work1{
+    flex: 1;
+}
+
+.work2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex:1;
+}
+.work2 div{
+    background-color: white;
+    flex-basis: 450px;
+    height: 350px;
+    margin-right: 20px;
+    margin-bottom: 70px;
+    padding: 10px;
+}
+
+.img_thumb{
+    width: 100%;
+}
+
+/*Footer */ 
+footer{
+    background-color: #D1DCDD;
+    padding:40px;
+    margin: auto;
+    max-width: 1150px;
+    white-space: nowrap;
+}
+
+/*Mobilvy */ 
+@media only screen and (max-width: 600px) {
+
+    .work_start_wrapper{
+        width: 100%;
+    }
+    .work1 h1{
+        font-size: 20px;
+        white-space: normal;
+        padding-top: 30px;
+        }
+        .logo{
+            display: none;
+        }
+
+        header{
+            display: flex;
+            justify-content: flex-start;
+            padding: 35px 0 10px;
+            border-bottom: solid 0px black;
+        }
+           
+     .work_start_wrapper{
+                margin-top: 10px;
+            }
+
+            .ingress{
+                font-size: 17px;
+            }
+}
