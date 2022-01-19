@@ -8,10 +8,15 @@
     font-family: 'Lato', sans-serif;
     
     /*
-    För att centrera och begränsa bredd av innehåll till 1150 px. På alla sektioner:
+    För att centrera och begränsa bredd av innehåll till 1150 px. 
+    På alla sektioner:
+
     margin: auto;
     max-width: 1150px;
     white-space: nowrap;
+
+    För att text ska brytas normalt måste
+    white-space:normal; läggas in i sektioner med text
     */
 
 }
@@ -73,6 +78,7 @@ header{
 
 
 .work1 h1{
+    white-space: normal;
     font-size: 25px;
     }
 .work1 h1 span{
@@ -111,6 +117,19 @@ font-size: 2.3em;
     width: 100%;
 }
 
+/*sida Om mig */ 
+.om_mig_wrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f4f4;
+    margin-top: 20px;
+    padding: 5%;
+
+    margin: 15px auto;
+    max-width: 1150px;
+    white-space: nowrap;
+}
+
 /*Footer */ 
 footer{
     background-color: #D1DCDD;
@@ -128,7 +147,6 @@ footer{
     }
     .work1 h1{
         font-size: 20px;
-        white-space: normal;
         padding-top: 30px;
         }
         .logo{
