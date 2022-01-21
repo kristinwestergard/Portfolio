@@ -111,13 +111,23 @@ font-size: 2.3em;
     flex:1;
     white-space: normal;
 }
-.work2 div{
+
+/*.work2 div{
     background-color: white;
     flex-basis: 450px;
     height: 370px;
     margin-right: 20px;
     margin-bottom: 70px;
     padding: 10px;
+}*/
+
+.w2_project1{
+    background-color: white;
+    flex-basis: 450px;
+    height: 370px;
+    margin-right: 20px;
+    margin-bottom: 70px;
+    padding: 10px; 
 }
 
 .project_thumb{
