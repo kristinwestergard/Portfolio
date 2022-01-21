@@ -13,7 +13,7 @@
     <!-- Header med navigation och länkar -->
     <header>
         <a href="index.html">
-            <img class="logo" src="images/logo.svg" alt="Kristin Westergård logo"> 
+            <img class="logo" src="images/logo.svg" alt="Kristin Westergård logo">
         </a>
         <nav>
             <ul class="navLinks">
@@ -24,30 +24,35 @@
         </nav>
     </header>
 
-    <!-- Main med innehåll för Projekt 1-->
+    <!-- Main med innehåll för Projekt 1
+    Inleds med en bild av projektet med en rubrik och ingress ovanpå-->
+    
     <main>
-        <section class="projekt_startbanner"> 
+        <section class="projekt_startbanner">
             <div class="projekt_start_bild">
-            <img src="images/projekt1_startbild.png" alt="projektbild hållbara köpguiden">
-        </div>
+                <img class="img-start_projekt" src="images/projekt1_startbild.png" alt="projektbild hållbara köpguiden">
+            </div>
 
             <div class="projekt_start_text">
                 <h1>UX Case study
                     <br><span>Hållbara <br> köpguiden</span>
                 </h1>
-                <p class="ingress_projekt">Lorem ipsum dolor, repudiandae fugit ut necessitatibus voluptatem 
-        perferendis dolores molestiae quo. Cumque optio aliquid commodi aliquam maxime 
-        voluptate quas officiis possimus quis autem.</p>
-               
-          </div>
+                <p class="ingress_projekt">Lorem ipsum dolor, repudiandae fugit ut necessitatibus voluptatem
+                    perferendis dolores molestiae quo. Cumque optio aliquid commodi aliquam maxime
+                    voluptate quas officiis possimus quis autem.</p>
+
+            </div>
         </section>
-          <section class="projektinfo_ruta">
-              <div class="projektinfo_child1">
-                  <p><span>KUND</span> <br><br> 1 text text text Lorem ipsum dolor, sit amet consectetur adipisicing 
+        <!-- Sektion med en inforuta om projektet. Flexparent med 3 children för de olika spalterna-->
+        <section class="projektinfo_ruta">
+            <div class="projektinfo_child1">
+                <h3> KUND :</h3>
+                <p> 1 text text text Lorem ipsum dolor, sit amet consectetur adipisicing
                     elit. Ad ipsa veritatis unt quis vel aut, iste laudantium consectetur cum.</p>
-              </div>
-              <div class="projektinfo_child2">
-                <p><span>MIN ROLL</span><br><br>
+            </div>
+            <div class="projektinfo_child2">
+                <h3>MIN ROLL :</h3>
+                <p>
                     <ul>
                         <li>UX research</li>
                         <li>Intervjuer</li>
@@ -55,28 +60,46 @@
                         <li>UI</li>
                         <li> Prototyp (Figma)</li>
                     </ul>
-                 
-                   
-                 </p>
+
+                </p>
             </div>
             <div class="projektinfo_child3">
-                <p> <span>TID FÖR PROJEKTET</span> <br><br> 3 text text text</p>
+                <h3>TID :</h3>
+                <p> 5 veckor</p>
             </div>
-          </section>
+        </section>
+<!-- Projektets olika faser beskrivs med en artikel för varje fas(bara hunnit en än så länge) -->
+        <article class="projekt_artikel_a">
+            <h2>Research</h2>
+            <div class="projekt_container_text">
+                <div class="projekt_text_spalt">
+                    <h3>Problem</h3>
+                    <p>text text Lorem ipsum,
+                        dolor sit amet consectetur adipisicing elit. Praesentium suscipit ea quibusdam
+                        distinctio voluptate vitae delectus neque ducimus odio similique ipsam voluptates
+                        nam soluta nemo, harum, vero enim? Mollitia, consequatur.</p>
+                </div>
+                <div class="projekt_text_spalt">
+                    <h3>Lösning</h3>
+                    <p>text text Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Reiciendis voluis nulla volupt sit tenetur temporibus ratione. Soluta!</p>
+                </div>
+            </div>
+        </article>
 
-       
-    </section>
+
+        </section>
     </main>
     <!-- Footer som avslutar sidorna-->
     <footer>
         <section class="footer">
             <img src="images/logo.svg" alt="kristin westergård">
-            <img src="images/linkedin.svg" alt="link for linkedin of kristin westergard">
+            <a href="https://www.linkedin.com/in/kristin-westergård" target="_blank"><img src="images/linkedin.svg"
+                    alt="link for linkedin of kristin westergard"></a>
         </section>
         <p class="footer_info">
-            Tel: <span>076-876 83 52</span>
-            <br>
-            E-mail: <a href="mailto:kristin.westergard2@gmail.com"><span>kristin.westergard2@gmail.com</span></a>
+            UX designer <span>-</span>UX researcher<span>-</span>Digital producent
+
         </p>
     </footer>
 </body>
