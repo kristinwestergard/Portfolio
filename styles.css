@@ -112,23 +112,18 @@ font-size: 2.3em;
     white-space: normal;
 }
 
-/*.work2 div{
-    background-color: white;
-    flex-basis: 450px;
-    height: 370px;
-    margin-right: 20px;
-    margin-bottom: 70px;
-    padding: 10px;
-}*/
 
-.w2_project1{
+
+.w2_project{
     background-color: white;
     flex-basis: 450px;
-    height: 370px;
+    min-height: 370px;
     margin-right: 20px;
     margin-bottom: 70px;
     padding: 10px; 
 }
+
+
 
 .project_thumb{
     width: 100%;   
@@ -138,9 +133,6 @@ font-size: 2.3em;
     font-size: 25px;
     margin-bottom: 10px; 
 }
-
-
-
 
 
 .project_thumb:hover{
@@ -321,7 +313,7 @@ font-size: 2.3em;
 
 .projektinfo_ruta{
     background-color: #4E5865;
-    padding: 2% 5%;
+    padding: 3% 5%;
     display: flex;
 
     margin: auto;
@@ -344,6 +336,10 @@ font-size: 2.3em;
     font-size: 18px;
     line-height: 130%;
     color: white;
+}
+
+.projektinfo_ruta li{
+ margin-left: 10px;
 }
 
 .projektinfo_ruta span{
@@ -479,4 +475,29 @@ padding: 2px 0;
         .spalt1{
             padding: 0 40px;
         }
+
+/*(mobilvy) Projekt 1 */
+.img-start_projekt{
+            width: 100%;
+        }
+
+        .projekt_start_text h1{
+            white-space: normal;
+            font-size:20px;
+            }
+
+            .projekt_start_text{
+               
+                background: rgb(66, 146, 212);  
+  background: rgba(66, 146, 212, 0.3);
+                }
+
+                .ingress_projekt{
+                    font-size: 16px;
+                }
+
+                .projektinfo_ruta{
+                   flex-direction: column;
+                
+                }
 }
