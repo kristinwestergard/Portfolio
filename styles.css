@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 
+* {
+  box-sizing: border-box; /*border box gör att man kan ställa in bredd och höjd utan att ev padding adderas */
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
 
-*{
-    box-sizing: border-box; /*border box gör att man kan ställa in bredd och höjd utan att ev padding adderas */ 
-    margin: 0;
-    padding: 0;
-    font-family: 'Lato', sans-serif;
-    
-    /*
+  /*
     För att centrera och begränsa bredd av innehåll till 1150 px. 
     På alla sektioner:
 
@@ -19,485 +18,511 @@
     white-space:normal; 
     läggas in i sektioner med text
     */
-
 }
-/*navigation */ 
-li, a{
-font-size: 20px;
-font-weight: 400;
-color: black;
-text-decoration: none;
-}
-
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 35px 0 10px;
-    border-bottom: solid 1px black;
-    margin: auto;
-    max-width: 1150px;
-    white-space: nowrap;
+/*navigation */
+li,
+a {
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+  text-decoration: none;
 }
 
-.logo{
-   cursor: pointer;
-   margin: auto;
-   padding-left: 10px;
-    
-}
-.navLinks{
-    list-style: none;
-    
-}
-
-.navLinks li{
-   display: inline-block;
-    padding:0 15px 
-   
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 0 10px;
+  border-bottom: solid 1px black;
+  margin: auto;
+  max-width: 1150px;
+  white-space: nowrap;
 }
 
-.navLinks li a{
-    transition: all 0.3s ease 0s;
+.logo {
+  cursor: pointer;
+  margin: auto;
+  padding-left: 10px;
+}
+.navLinks {
+  list-style: none;
 }
 
-.navLinks li a:hover{
-    color: #7e99a3;
+.navLinks li {
+  display: inline-block;
+  padding: 0 15px;
 }
 
-
-
-/*startsida/Work */ 
-.work_start_wrapper{
-    display: flex;
-    flex-direction: column;
-    background-color: #5F6a7e;
-    background-image: url("images/bg_img_start.png");
-    background-repeat: no-repeat;
-    margin-top: 20px;
-    padding: 5%;
-
-    margin: 15px auto;
-    max-width: 1150px;
-    white-space: nowrap;
+.navLinks li a {
+  transition: all 0.3s ease 0s;
 }
 
-
-.work1 h1{
-    white-space: normal;
-    font-size: 25px;
-    }
-.work1 h1 span{
-font-size: 2.3em;
+.navLinks li a:hover {
+  color: #7e99a3;
 }
 
-.ingress{
-    white-space: normal;
-    max-width: 450px;
-    padding: 30px 0;
-    font-size: 22px;
-    line-height: 130%;
-    margin-bottom: 50px;
+/*startsida/Work */
+.work_start_wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #5f6a7e;
+  background-image: url("images/bg_img_start.png");
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  padding: 5%;
+
+  margin: 15px auto;
+  max-width: 1150px;
+  white-space: nowrap;
 }
 
-.work1{
-    flex: 1;
+.work1 h1 {
+  white-space: normal;
+  font-size: 25px;
+}
+.work1 h1 span {
+  font-size: 2.3em;
 }
 
-.work2{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex:1;
-    white-space: normal;
+.ingress {
+  white-space: normal;
+  max-width: 450px;
+  padding: 30px 0;
+  font-size: 22px;
+  line-height: 130%;
+  margin-bottom: 50px;
 }
 
-
-
-.w2_project{
-    background-color: white;
-    flex-basis: 450px;
-    min-height: 370px;
-    margin-right: 20px;
-    margin-bottom: 70px;
-    padding: 10px; 
+.work1 {
+  flex: 1;
 }
 
-
-
-.project_thumb{
-    width: 100%;   
-  }
-
-.projektgrupp h2{
-    font-size: 25px;
-    margin-bottom: 10px; 
+.work2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1;
+  white-space: normal;
 }
 
-
-.project_thumb:hover{
-opacity: 0.6;
-transition: all 0.3s ease 0s;
+.w2_project {
+  background-color: white;
+  flex-basis: 450px;
+  min-height: 370px;
+  margin-right: 20px;
+  margin-bottom: 70px;
+  padding: 10px;
 }
 
-
-/*sida Om mig */ 
-.om_mig_wrapper{
-    height:450px;
-    display: flex;
-    flex-direction: column;
-    background-color: #f4f4f4;
-    margin-top: auto;
-
-    margin: 15px auto 0;
-    max-width: 1150px;
-    white-space: nowrap;
-}
-/*Inledningsblock (sida Om mig) */ 
-.inledning{
-    width:100%;
-    height: 100%;
-    background-color: #D1DCDD;
-    clip-path: polygon(0 0, 100% 0, 100% 34%, 0 45%);
-    position: absolute;
-    z-index: 1;
-    padding-top: 5%;
-    display: flex;
-
-    max-width: 1150px;
-    white-space: nowrap; 
-}
-.inledn_bild_container{
-flex: 1;
-padding: 0 2%;
+.project_thumb {
+  width: 100%;
 }
 
-.inledn_text{
-    flex: 2;
-    padding-left: 15px;
-    }
-
-    .inledn_text h1{
-        white-space: normal;
-        font-size: 25px;
-        }
-    .inledn_text h1 span{
-    font-size: 2.3em;
-    }
-    .nyckelord{
-        white-space: normal;
-        max-width: 500px;
-        padding: 30px 0;
-        font-size: 18px;
-        line-height: 130%;
-        font-weight: bold;
-        color: darkgoldenrod;
-    }
-
-
-.inledn_bild_container{
-display: flex;
-justify-content: center;
-
+.projektgrupp h2 {
+  font-size: 25px;
+  margin-bottom: 10px;
 }
 
-.inledn_bild_container img{
-    border-radius: 50%;
-    width: 250px;
-    height: 250px;
-    
+.project_thumb:hover {
+  opacity: 0.6;
+  transition: all 0.3s ease 0s;
 }
 
-/*Spalter (sida Om mig) */ 
-.content_wrapper{
+/*sida Om mig */
+.om_mig_wrapper {
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f4f4f4;
+  margin-top: auto;
 
-    display: flex;
-    flex-direction:row;
-    background-color: #f4f4f4;
-    margin-top: auto;
+  margin: 15px auto 0;
+  max-width: 1150px;
+  white-space: nowrap;
+}
+/*Inledningsblock (sida Om mig) */
+.inledning {
+  width: 100%;
+  height: 100%;
+  background-color: #d1dcdd;
+  clip-path: polygon(0 0, 100% 0, 100% 34%, 0 45%);
+  position: absolute;
+  z-index: 1;
+  padding-top: 5%;
+  display: flex;
 
-    margin: 0 auto 15px;
-    max-width: 1150px;
-    white-space: nowrap;
-    white-space:normal; 
+  max-width: 1150px;
+  white-space: nowrap;
+}
+.inledn_bild_container {
+  flex: 1;
+  padding: 0 2%;
 }
 
-.content_wrapper h2{
-font-size: 35px;
-padding-bottom: 20px;
+.inledn_text {
+  flex: 2;
+  padding-left: 15px;
 }
 
-
-.content_wrapper p{
-    font-size: 18px;
-    line-height: 130%;
-    margin-bottom:50px;
-    }
-
-
-.content_wrapper h3{
-    font-size: 20px;
-    padding-bottom: 10px;
-    font-weight: bold;
-    }
-
-.spalt1_wrapper{
-flex:1;
-padding: 0 2%;
+.inledn_text h1 {
+  white-space: normal;
+  font-size: 25px;
+}
+.inledn_text h1 span {
+  font-size: 2.3em;
+}
+.nyckelord {
+  white-space: normal;
+  max-width: 500px;
+  padding: 30px 0;
+  font-size: 18px;
+  line-height: 130%;
+  font-weight: bold;
+  color: rgb(12, 12, 71);
 }
 
-.spalt1{
-    padding: 0 5% 0 15%;
+.inledn_bild_container {
+  display: flex;
+  justify-content: center;
 }
 
-.spalt2_wrapper{
-    flex:2;
-    padding-left: 40px;
-    padding-right: 70px;
+.inledn_bild_container img {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
 }
 
-.avdelare{
-    width: 70px;
-    border-top: #a5ebe2 10px solid;
-    margin: 35px 0;
+/*Spalter (sida Om mig) */
+.content_wrapper {
+  display: flex;
+  flex-direction: row;
+  background-color: #f4f4f4;
+  margin-top: auto;
+
+  margin: 0 auto 15px;
+  max-width: 1150px;
+  white-space: nowrap;
+  white-space: normal;
 }
 
-
-/*Sida projekt */ 
-
-.projekt_startbanner{
-    position: relative;
-    margin: 15px auto 0;
-    max-width: 1150px;
-    display: flex;
-    justify-content: space-between;
-    
+.content_wrapper h2 {
+  font-size: 35px;
+  padding-bottom: 20px;
 }
 
-.projekt_start_bild{
-    z-index: -1;
-    flex: 1;
+.content_wrapper p {
+  font-size: 18px;
+  line-height: 130%;
+  margin-bottom: 50px;
 }
 
+.content_wrapper h3 {
+  font-size: 20px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.spalt1_wrapper {
+  flex: 1;
+  padding: 0 2%;
+}
+
+.spalt1 {
+  padding: 0 5% 0 15%;
+}
+
+.spalt2_wrapper {
+  flex: 2;
+  padding-left: 40px;
+  padding-right: 70px;
+}
+
+.avdelare {
+  width: 70px;
+  border-top: #a5ebe2 10px solid;
+  margin: 35px 0;
+}
+
+/*Sida projekt */
+
+.projekt_startbanner {
+  position: relative;
+  margin: 15px auto 0;
+  max-width: 1150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.projekt_start_bild {
+  z-index: -1;
+  flex: 1;
+}
 
 .projekt_start_text {
-    position: absolute;
+  position: absolute;
   padding-top: 5%;
   padding-left: 5%;
-  white-space: normal; 
+  white-space: normal;
   max-width: 450px;
   height: 100%;
-  flex:1;
+  flex: 1;
   /*background: rgb(0, 0, 0);  
   background: rgba(0, 0, 0, 0.2);*/
-    }
-
-.projekt_start_text h1{
-    white-space: normal;
-    font-size:30px;
-    }
-
-    .projekt_start_text span{
-font-size: 2.3em;
 }
 
-.ingress_projekt{
-    background-color: #b2cef4;
-    max-width: 450px;
-    padding: 30px 0;
-    font-size: 22px;
-    line-height: 130%;
-    margin-bottom: 50px; 
-    
+.projekt_start_text h1 {
+  white-space: normal;
+  font-size: 30px;
 }
 
-.projektinfo_ruta{
-    background-color: #4E5865;
-    padding: 3% 5%;
-    display: flex;
-
-    margin: auto;
-    max-width: 1150px;
-    white-space: nowrap;
+.projekt_start_text span {
+  font-size: 2.3em;
 }
 
-.projektinfo_child1{
-    flex: 2;
-    white-space: normal;
-    padding-right: 7%;
+.ingress_projekt {
+  background-color: #b2cef4;
+  max-width: 450px;
+  padding: 30px 0;
+  font-size: 22px;
+  line-height: 130%;
+  margin-bottom: 50px;
 }
 
-.projektinfo_child2, .projektinfo_child3{
-    flex: 1;
-    white-space: normal;
+.projektinfo_ruta {
+  background-color: #4e5865;
+  padding: 3% 5%;
+  display: flex;
+
+  margin: auto;
+  max-width: 1150px;
+  white-space: nowrap;
 }
 
-.projektinfo_ruta p, li{
-    font-size: 18px;
-    line-height: 130%;
-    color: white;
+.projektinfo_child1 {
+  flex: 2;
+  white-space: normal;
+  padding-right: 7%;
 }
 
-.projektinfo_ruta li{
- margin-left: 10px;
+.projektinfo_child2,
+.projektinfo_child3 {
+  flex: 1;
+  white-space: normal;
 }
 
-.projektinfo_ruta span{
-    font-weight: bold;
-    border-bottom: 1 px white solid;
+.projektinfo_ruta p,
+li {
+  font-size: 18px;
+  line-height: 130%;
+  color: white;
 }
 
-/*Sida Kontakt */ 
-
-.kontakt_wrapper{
-    display: flex;
-    flex-direction: column;
-    background-color: #5F6a7e;
-    background-image: url("images/bg_img_start.png");
-    background-repeat: no-repeat;
-    margin-top: 20px;
-    padding: 5%;
-
-    margin: 15px auto;
-    max-width: 1150px;
-    white-space: nowrap;
+.projektinfo_ruta p {
+  padding-bottom: 7%;
+}
+.projektinfo_ruta li {
+  margin-left: 10px;
 }
 
-.kontaktruta{
-    background-color: white;
-    width: 700px;
-    height: 400px;
+.projektinfo_ruta h3 {
+  font-size: 17px;
+  padding-bottom: 4%;
+  color: white;
 }
 
-/*Footer */ 
-footer{
-    background-color: #D1DCDD;
-    padding:3% 5%;
-    margin: auto;
-    max-width: 1150px;
-    white-space: nowrap;
-    
-}
-.footer{
-    display: flex;
-    justify-content: space-between;
-    align-items:center;
-}
-.footer_info, a{
-font-size: 20px;
-line-height: 170%;
-padding: 2px 0;
-}
-.footer_info span{
-    font-weight: bold;
-    padding: 0 7px;
-    }
+/*artiklar. Sida Projekt */
 
+.projekt_artikel_a {
+  background-color: #cce0f9;
+  padding: 3% 5%;
 
+  margin: auto;
+  max-width: 1150px;
+  white-space: nowrap;
+}
 
-/*Mobilvy */ 
+.projekt_container_text {
+  display: flex;
+  align-items: flex-start;
+}
+
+.projekt_text_spalt {
+  flex-basis: 300px;
+  white-space: normal;
+  margin-right: 3%;
+}
+.projekt_artikel_a h2 {
+  font-size: 55px;
+  padding-bottom: 3%;
+}
+
+/*Sida Kontakt */
+
+.kontakt_wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #5f6a7e;
+  background-image: url("images/bg_img_start.png");
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  padding: 5%;
+
+  margin: 15px auto;
+  max-width: 1150px;
+  white-space: nowrap;
+}
+
+.kontaktruta {
+  background-color: white;
+  width: 700px;
+  height: 400px;
+}
+
+/*Footer */
+footer {
+  background-color: #d1dcdd;
+  padding: 3% 5%;
+  margin: auto;
+  max-width: 1150px;
+  white-space: nowrap;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  white-space: normal;
+}
+.footer_info,
+a {
+  font-size: 20px;
+  line-height: 170%;
+  padding: 2px 0;
+}
+.footer_info span {
+  font-weight: bold;
+  padding: 0 7px;
+}
+
+/*Mobilvy */
 @media only screen and (max-width: 600px) {
-    .logo{
-        display: none;
-    }
+  .logo {
+    display: none;
+  }
 
-    header{
-        display: flex;
-        justify-content: flex-start;
-        padding: 35px 0 10px;
-        border-bottom: solid 0px black;
-    }
+  header {
+    display: flex;
+    justify-content: flex-start;
+    padding: 35px 0 10px;
+    border-bottom: solid 0px black;
+  }
 
-    .footer_info, a{
-        font-size: 18px;
-        }
-   
+  .footer_info,
+  a {
+    font-size: 18px;
+  }
 
-    /*(mobilvy) Startsida,work */ 
-    .work_start_wrapper{
-        width: 100%;
-        margin-top: 10px;
-    }
-    .work1 h1{
-        font-size: 18px;
-        padding-top: 30px;
-        }
-      
-            .ingress{
-                font-size: 17px;
-            }
+  /*(mobilvy) Startsida,work */
+  .work_start_wrapper {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .work1 h1 {
+    font-size: 18px;
+    padding-top: 30px;
+  }
 
-    /*(mobilvy) Om mig */ 
- .om_mig_wrapper{
-                width: 100%;
-                margin-top: 10px;
-            }
-            .inledning{
-                flex-direction: column;
-                height: 115%;
-                }
+  .ingress {
+    font-size: 17px;
+  }
 
-                .inledn_bild_container{
-                    flex: 0.5;
-                    
-                }
-                .inledn_bild_container img{
-                    width: 150px;
-                    height: 150px;
-                }
-                
-                .inledn_text{
-                    flex: 3;
-                    padding: 0;
-                    }
-                
-                .inledn_text h1{
-                        text-align: center;
-                        font-size: 18px;
-                        padding: 30px 10px;
-                        }
+  /*(mobilvy) Om mig */
+  .om_mig_wrapper {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .inledning {
+    flex-direction: column;
+    height: 115%;
+  }
 
-                        .nyckelord{
-                            display: none;
-                        }
-    .content_wrapper{
-        width: 100%;
-        flex-direction: column-reverse;
-    }
+  .inledn_bild_container {
+    flex: 0.5;
+  }
+  .inledn_bild_container img {
+    width: 150px;
+    height: 150px;
+  }
 
-    .spalt1_wrapper{
-        background-color: #cce0f9;
-        opacity: 0.7;
-        padding-top: 20px;
-        }
-        
-        
-        .spalt1{
-            padding: 0 40px;
-        }
+  .inledn_text {
+    flex: 3;
+    padding: 0;
+  }
 
-/*(mobilvy) Projekt 1 */
-.img-start_projekt{
-            width: 100%;
-        }
+  .inledn_text h1 {
+    text-align: center;
+    font-size: 18px;
+    padding: 30px 10px;
+  }
 
-        .projekt_start_text h1{
-            white-space: normal;
-            font-size:20px;
-            }
+  .nyckelord {
+    display: none;
+  }
+  .content_wrapper {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
 
-            .projekt_start_text{
-               
-                background: rgb(66, 146, 212);  
-  background: rgba(66, 146, 212, 0.3);
-                }
+  .spalt1_wrapper {
+    background-color: #e1ecf8;
+    padding-top: 20px;
+  }
 
-                .ingress_projekt{
-                    font-size: 16px;
-                }
+  .spalt1 {
+    padding: 0 40px;
+  }
 
-                .projektinfo_ruta{
-                   flex-direction: column;
-                
-                }
+  /*(mobilvy) Projekt 1 */
+  .img-start_projekt {
+    width: 100%;
+  }
+
+  .projekt_start_text h1 {
+    white-space: normal;
+    font-size: 20px;
+  }
+
+  .projekt_start_text {
+    background: rgb(66, 146, 212);
+    background: rgba(66, 146, 212, 0.3);
+  }
+
+  .ingress_projekt {
+    font-size: 16px;
+  }
+
+  .projektinfo_ruta {
+    flex-direction: column;
+  }
+  .ingress_projekt {
+    display: none;
+  }
+
+  .projektinfo_ruta h3 {
+    font-size: 17px;
+    padding-bottom: 0;
+  }
+
+  .projektinfo_ruta p,
+  li {
+    font-size: 16px;
+  }
+  .projekt_container_text {
+    flex-direction: column;
+  }
+
+  /*(mobilvy) Footer*/
+  footer {
+    width: 100%;
+  }
 }
