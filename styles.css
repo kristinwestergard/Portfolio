@@ -324,21 +324,30 @@ li {
   margin-left: 10px;
 }
 
+
+
 .projektinfo_ruta h3 {
   font-size: 17px;
   padding-bottom: 4%;
   color: white;
 }
+.linje_inforuta{
+    width: 100px;
+  border-top: #a5ebe2 4px solid;
+  margin: 5px 0;
+}
 
 /*artiklar. Sida Projekt */
+.projekt_artiklar_wrapper{
+    margin: auto;
+  max-width: 1150px;
+  white-space: nowrap;
 
+}
 .projekt_artikel_a {
   background-color: #cce0f9;
   padding: 3% 5%;
-
-  margin: auto;
-  max-width: 1150px;
-  white-space: nowrap;
+  
 }
 
 .projekt_container_text {
@@ -351,10 +360,14 @@ li {
   white-space: normal;
   margin-right: 3%;
 }
-.projekt_artikel_a h2 {
+.projekt_artiklar_wrapper h2 {
   font-size: 55px;
   padding-bottom: 3%;
 }
+.projekt_artiklar_wrapper h3 {
+    font-size: 23px;
+    padding-bottom: 3%;
+  }
 
 /*Sida Kontakt */
 
@@ -403,6 +416,11 @@ a {
   font-weight: bold;
   padding: 0 7px;
 }
+
+
+
+
+
 
 /*Mobilvy */
 @media only screen and (max-width: 600px) {
@@ -483,18 +501,20 @@ a {
   }
 
   /*(mobilvy) Projekt 1 */
-  .img-start_projekt {
+
+  .img_start_projekt {
     width: 100%;
   }
 
   .projekt_start_text h1 {
     white-space: normal;
-    font-size: 20px;
+    font-size: 20px;  
   }
 
   .projekt_start_text {
     background: rgb(66, 146, 212);
-    background: rgba(66, 146, 212, 0.3);
+    background: rgba(66, 146, 212, 0.5);
+    padding-right: 8%;
   }
 
   .ingress_projekt {
@@ -503,6 +523,7 @@ a {
 
   .projektinfo_ruta {
     flex-direction: column;
+    width: 100%;
   }
   .ingress_projekt {
     display: none;
@@ -510,20 +531,42 @@ a {
 
   .projektinfo_ruta h3 {
     font-size: 17px;
-    padding-bottom: 0;
+    padding-bottom: 4px;
   }
 
-  .projektinfo_ruta p,
-  li {
-    font-size: 16px;
+  .projektinfo_ruta li {
+    font-size: 18px;  
   }
+  .projektinfo_ruta p{
+    font-size: 18px;
+    line-height: 150%; 
+  }
+
+
   .projekt_container_text {
     flex-direction: column;
   }
+
+  .projekt_artiklar_wrapper{
+      width:100%;
+  }
+  .projekt_artiklar_wrapper h2{
+    font-size: 40px;
+}
 
   /*(mobilvy) Footer*/
   footer {
     width: 100%;
   }
 
+}
+
+
+
+
+
+@media only screen and (min-width: 601px){
+    .linje_inforuta{
+        display: none;
+    }
 }
