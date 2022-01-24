@@ -249,23 +249,19 @@ header {
   position: relative;
   margin: 15px auto 0;
   max-width: 1150px;
-  display: flex;
-  justify-content: space-between;
+  background-image: url(images/projekt1_startbild.png);
 }
 
-.projekt_start_bild {
-  z-index: -1;
-  flex: 1;
-}
+
 
 .projekt_start_text {
-  position: absolute;
+  
   padding-top: 5%;
   padding-left: 5%;
   white-space: normal;
   max-width: 450px;
   height: 100%;
-  flex: 1;
+  
   /*background: rgb(0, 0, 0);  
   background: rgba(0, 0, 0, 0.2);*/
 }
@@ -280,12 +276,12 @@ header {
 }
 
 .ingress_projekt {
-  background-color: #b2cef4;
+  
   max-width: 450px;
   padding: 30px 0;
   font-size: 22px;
   line-height: 130%;
-  margin-bottom: 50px;
+  
 }
 
 .projektinfo_ruta {
@@ -502,32 +498,41 @@ a {
 
   /*(mobilvy) Projekt 1 */
 
-  .img_start_projekt {
+  .projekt_startbanner {
     width: 100%;
+    background-image: url(images/projekt1_startbild_mobil.png);
   }
 
   .projekt_start_text h1 {
     white-space: normal;
-    font-size: 20px;  
+    font-size: 22px;  
   }
 
   .projekt_start_text {
-    background: rgb(66, 146, 212);
-    background: rgba(66, 146, 212, 0.5);
-    padding-right: 8%;
+    
+    
+    min-height: 300px;
+    
   }
 
   .ingress_projekt {
     font-size: 16px;
+    background: rgb(66, 146, 212);
+    background: rgba(66, 146, 212, 0.5);
+  
+        max-width: 450px;
+        padding: 30px;
+      margin: 5% 5% 0 5%;
+        
+    
+    
   }
 
   .projektinfo_ruta {
     flex-direction: column;
     width: 100%;
   }
-  .ingress_projekt {
-    display: none;
-  }
+  
 
   .projektinfo_ruta h3 {
     font-size: 17px;
@@ -540,6 +545,10 @@ a {
   .projektinfo_ruta p{
     font-size: 18px;
     line-height: 150%; 
+  }
+
+  .projektinfo_child3 {
+    padding-top: 5%;
   }
 
 
@@ -570,3 +579,5 @@ a {
         display: none;
     }
 }
+
+
