@@ -5,6 +5,8 @@
   margin: 0;
   padding: 0;
   font-family: "Lato", sans-serif;
+  
+  
 
   /*
     För att centrera och begränsa bredd av innehåll till 1150 px. 
@@ -287,8 +289,19 @@ header {
 
 .projektinfo_ruta {
   background-color: #4e5865;
-  padding: 3% 5%;
+  padding: 3% 5% 0;
   display: flex;
+
+  margin: auto;
+  max-width: 1150px;
+  white-space: nowrap;
+}
+
+.projektinfo_ruta_link {
+  background-color: #4e5865;
+  padding: 0 5% 2%;
+  display: flex;
+  justify-content: center;
 
   margin: auto;
   max-width: 1150px;
@@ -367,6 +380,20 @@ li {
   }
 
 /*Sida Kontakt */
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 15px;
+  min-width: 300px;
+}
 
 .kontakt_wrapper {
   display: flex;
@@ -395,21 +422,11 @@ li {
   justify-content: center;
 }
 
-.text_box{
-  border: salmon 1px solid;
-}
-.symbol_box{
-  border: rgb(150, 28, 14) 1px solid;
-  width: 90px;
-  
-  align-items: center;
-}
+
 .kontaktinfo{
   padding: 7%;
 }
 
-.kontaktinfo a{
- margin: 5px;
  
 }
 .kontaktinfo a:hover{
@@ -566,6 +583,8 @@ a {
     flex-direction: column;
     width: 100%;
   }
+
+  
   
 
   .projektinfo_ruta h3 {
