@@ -250,6 +250,7 @@ header {
   margin: 15px auto 0;
   max-width: 1150px;
   background-image: url(images/projekt1_startbild.png);
+  background-repeat: no-repeat;
 }
 
 
@@ -383,8 +384,40 @@ li {
 
 .kontaktruta {
   background-color: white;
-  width: 700px;
+  max-width: 700px;
   height: 400px;
+  margin-top: 2%;
+  display: flex;
+}
+.kontakt{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text_box{
+  border: salmon 1px solid;
+}
+.symbol_box{
+  border: rgb(150, 28, 14) 1px solid;
+  width: 90px;
+  
+  align-items: center;
+}
+.kontaktinfo{
+  padding: 7%;
+}
+
+.kontaktinfo a{
+ margin: 5px;
+ 
+}
+.kontaktinfo a:hover{
+  zoom: 100%;
+  transition: zoom 5s ease-in-out;
+  transition-delay: 2s;
+  opacity: 0.5;
+  
 }
 
 /*Footer */
@@ -394,6 +427,7 @@ footer {
   margin: auto;
   max-width: 1150px;
   white-space: nowrap;
+  border-top: white solid 3px;
 }
 
 .footer {
@@ -510,17 +544,17 @@ a {
 
   .projekt_start_text {
     
-    
     min-height: 300px;
     
   }
 
   .ingress_projekt {
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: bold;
     background: rgb(66, 146, 212);
     background: rgba(66, 146, 212, 0.5);
   
-        max-width: 450px;
+        max-width: 350px;
         padding: 30px;
       margin: 5% 5% 0 5%;
         
@@ -554,10 +588,12 @@ a {
 
   .projekt_container_text {
     flex-direction: column;
+    justify-content: flex-start;
   }
 
   .projekt_artiklar_wrapper{
       width:100%;
+
   }
   .projekt_artiklar_wrapper h2{
     font-size: 40px;
