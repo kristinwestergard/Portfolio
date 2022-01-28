@@ -301,7 +301,7 @@ header {
   background-color: #4e5865;
   padding: 0 5% 2%;
   display: flex;
-  justify-content: center;
+  justify-content: left;
 
   margin: auto;
   max-width: 1150px;
@@ -352,8 +352,14 @@ li {
     margin: auto;
   max-width: 1150px;
   white-space: nowrap;
-
 }
+
+.projekt_text_spalt p{
+font-size: 19px;
+line-height: 145%;
+padding-bottom: 8%;
+}
+
 .projekt_artikel_a {
   background-color: #cce0f9;
   padding: 3% 5%;
@@ -364,11 +370,24 @@ li {
   display: flex;
   align-items: flex-start;
 }
+.projekt_container_bild{
+  padding: 2% 10% 2% 0;
+}
+
+.projekt_container_bild img{
+  width: 100%;
+}
+
 
 .projekt_text_spalt {
-  flex-basis: 300px;
+  flex-basis: 450px;
   white-space: normal;
   margin-right: 3%;
+}
+.avdelare_artikel_projekt {
+  width: 70px;
+  border-top: white 10px solid;
+  margin: 35px 0;
 }
 .projekt_artiklar_wrapper h2 {
   font-size: 55px;
@@ -452,6 +471,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   white-space: normal;
+  
 }
 .footer_info,
 a {
@@ -582,8 +602,13 @@ a {
   .projektinfo_ruta {
     flex-direction: column;
     width: 100%;
+    padding-top:4%;
   }
-
+  .projektinfo_ruta_link {
+    flex-direction: column;
+    width: 100%;
+    padding: 0 5% 4%;
+  }
   
   
 
@@ -606,8 +631,7 @@ a {
 
 
   .projekt_container_text {
-    flex-direction: column;
-    justify-content: flex-start;
+  display: inline-block;
   }
 
   .projekt_artiklar_wrapper{
