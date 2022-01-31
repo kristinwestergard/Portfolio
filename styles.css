@@ -126,7 +126,7 @@ header {
 }
 
 .project_thumb:hover {
-  opacity: 0.6;
+  opacity: 0.9;
   transition: all 0.3s ease 0s;
 }
 
@@ -289,7 +289,7 @@ header {
 
 .projektinfo_ruta {
   background-color: #4e5865;
-  padding: 3% 5% 0;
+  padding: 3% 50px 0;
   display: flex;
 
   margin: auto;
@@ -299,7 +299,7 @@ header {
 
 .projektinfo_ruta_link {
   background-color: #4e5865;
-  padding: 0 5% 2%;
+  padding: 0 50px 2%;
   display: flex;
   justify-content: left;
 
@@ -359,19 +359,25 @@ font-size: 19px;
 line-height: 145%;
 padding-bottom: 8%;
 }
-
-.projekt_artikel_a {
+.projekt_artikel_color1 {
+  background-color: #B3CFF4;
+  
+  
+}
+.projekt_artikel_color2 {
   background-color: #cce0f9;
-  padding: 3% 5%;
+  
   
 }
 
 .projekt_container_text {
   display: flex;
   align-items: flex-start;
+  padding: 3% 5%;
 }
 .projekt_container_bild{
   padding: 2% 10% 2% 0;
+  padding: 3% 5%;
 }
 
 .projekt_container_bild img{
@@ -380,18 +386,20 @@ padding-bottom: 8%;
 
 
 .projekt_text_spalt {
-  flex-basis: 450px;
+  flex-basis: 460px;
   white-space: normal;
-  margin-right: 3%;
+  margin-right: 6%;
 }
 .avdelare_artikel_projekt {
   width: 70px;
   border-top: white 10px solid;
-  margin: 35px 0;
+  margin: 35px 5%;
+
+  
 }
 .projekt_artiklar_wrapper h2 {
   font-size: 55px;
-  padding-bottom: 3%;
+  padding: 3% 5%;
 }
 .projekt_artiklar_wrapper h3 {
     font-size: 23px;
@@ -412,6 +420,11 @@ padding-bottom: 8%;
   cursor: pointer;
   border-radius: 15px;
   min-width: 300px;
+}
+
+.button:hover{
+  background-color: #7E99A3;
+  transition: all 0.7s ease 0s; ;
 }
 
 .kontakt_wrapper {
@@ -447,13 +460,7 @@ padding-bottom: 8%;
 }
 
 
-.kontaktinfo a:hover{
-  zoom: 100%;
-  transition: zoom 5s ease-in-out;
-  transition-delay: 2s;
-  opacity: 0.5;
-  
-}
+
 
 /*Footer */
 footer {
