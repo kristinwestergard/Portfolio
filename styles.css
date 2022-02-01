@@ -107,28 +107,49 @@ header {
   white-space: normal;
 }
 
-.w2_project {
+.w2_project_card {
   background-color: white;
   flex-basis: 450px;
   min-height: 370px;
-  margin-right: 20px;
+  margin-right: 30px;
   margin-bottom: 70px;
   padding: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 
 .project_thumb {
   width: 100%;
 }
 
+.projektgrupp {
+  width: 1000px;
+ }
 .projektgrupp h2 {
   font-size: 25px;
-  margin-bottom: 10px;
+  margin-bottom: 14px;
+  color: white;
+}
+.projektgrupp h2 span {
+  color: black;
 }
 
 .project_thumb:hover {
   opacity: 0.9;
   transition: all 0.3s ease 0s;
 }
+
+.card_text h3{
+font-size: 20px;
+font-weight: bold;
+margin-bottom: 5px;
+margin-top: 7px;
+}
+
+.card_text p{
+  font-size: 18px;
+  margin-bottom: 5px;
+  line-height: 130%;
+  }
 
 /*sida Om mig */
 .om_mig_wrapper {
@@ -418,7 +439,7 @@ padding-bottom: 8%;
   font-size: 18px;
   margin: 4px 2px;
   cursor: pointer;
-  border-radius: 15px;
+  border-radius: 50px;
   min-width: 300px;
 }
 
@@ -495,7 +516,7 @@ a {
 
 
 
-/*Mobilvy */
+/*Mobilvy - skärmar smalare än 600px */
 @media only screen and (max-width: 600px) {
   .logo {
     display: none;
@@ -658,11 +679,16 @@ a {
 
 
 
-
+/* skärmar bredare än 600px */
 @media only screen and (min-width: 601px){
     .linje_inforuta{
         display: none;
     }
 }
 
-
+/*- skärmar smalare än 1800px */
+@media only screen and (max-width: 1800px) {
+  .projektgrupp {
+   
+  }
+}

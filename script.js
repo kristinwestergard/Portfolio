@@ -1,5 +1,5 @@
 function overLinkedIn(mOver){
-    mOver.innerHTML = "LinkedIn öppnas i ny flik";
+    mOver.innerHTML = "LinkedIn i ny flik";
 }
 function outLinkedIn(mOver){
     mOver.innerHTML = "Kontakta mig på LinkedIn";
