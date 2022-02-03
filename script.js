@@ -5,7 +5,7 @@ function outLinkedIn(mOver){
     mOver.innerHTML = "Kontakta mig på LinkedIn";
 }
 function overMail(mOver){
-    mOver.innerHTML = "Öppnar mailklient";
+    mOver.innerHTML = "Öppnar mail-klient";
 }
 
 function outMail(mOver){
