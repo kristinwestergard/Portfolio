@@ -583,6 +583,7 @@ a {
   }
   .w2_project_card img{
 width: 100%;
+height: auto;
   }
 
   .projektgrupp{
@@ -685,6 +686,10 @@ width: 100%;
     white-space: normal;
   }
 
+  .projektinfo_ruta {
+    
+    border-top: #4e5865 20px solid;
+  }
   .projektinfo_ruta h3 {
     font-size: 17px;
     padding-bottom: 4px;
@@ -764,7 +769,7 @@ width: 100%;
   .w2_project_card img{
     width: 100%;
       }
-      
+
       .projektgrupp{
         width: 100%;
         white-space: normal;
