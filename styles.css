@@ -276,7 +276,13 @@ margin-top: 7px;
   background-repeat: no-repeat;
 }
 
-
+.projekt_startbanner_kampanjer {
+  position: relative;
+  margin: 15px auto 0;
+  max-width: 1150px;
+  background-image: url(images/kampanjer_start.jpg);
+  background-repeat: no-repeat;
+}
 
 .projekt_start_text {
   
@@ -387,8 +393,10 @@ padding-bottom: 8%;
 }
 .projekt_artikel_color2 {
   background-color: #cce0f9;
-  
-  
+}
+
+.projekt_artikel_color3 {
+  background-color: #f4f4f4;
 }
 
 .projekt_container_text {
@@ -426,6 +434,32 @@ padding-bottom: 8%;
     font-size: 23px;
     padding-bottom: 3%;
   }
+
+  .work2_youtube {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1;
+    white-space: normal;
+    padding-left: 5%;
+  }
+ 
+  .iframecontainer {
+    position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+    
+  
+  }
+  .iframecontainer iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
 
 /*Sida Kontakt */
 .button {
@@ -607,9 +641,7 @@ a {
   }
 
   .projekt_start_text {
-    
-    min-height: 300px;
-    
+    min-height: 300px;   
   }
 
   .ingress_projekt {
@@ -621,11 +653,14 @@ a {
         max-width: 350px;
         padding: 30px;
       margin: 5% 5% 0 5%;
-        
+   
+      }
     
-    
-  }
+      .artikelbild_right{
+        width: 80%;
+      }
 
+     
   .projektinfo_ruta {
     flex-direction: column;
     width: 100%;
@@ -637,7 +672,15 @@ a {
     padding: 0 5% 4%;
   }
   
-  
+  .projekt_artiklar_wrapper{
+    width: 100%;
+    white-space: normal;
+  }
+  .projekt_artikel_color1, .projekt_artikel_color2, .projekt_artikel_color3{
+    flex-direction: column;
+    width: 100%;
+    white-space: normal;
+  }
 
   .projektinfo_ruta h3 {
     font-size: 17px;
@@ -658,16 +701,24 @@ a {
 
 
   .projekt_container_text {
-  display: inline-block;
+  display: block;
   }
 
   .projekt_artiklar_wrapper{
       width:100%;
-
+      white-space: normal;
   }
   .projekt_artiklar_wrapper h2{
     font-size: 40px;
 }
+/*(mobilvy) projektsida -  kampanjer */
+.projekt_startbanner_kampanjer{
+width: 100%;
+}
+.work2_youtube{
+    width: fit-content;    
+}
+
 
   /*(mobilvy) Footer*/
   footer {
@@ -686,9 +737,26 @@ a {
     }
 }
 
-/*- skärmar smalare än 1800px */
-@media only screen and (max-width: 1800px) {
-  .projektgrupp {
-   
+/*- skärmar smalare än 900px */
+@media only screen and (max-width: 900px) {
+  
+/*- projektsidor */
+  .projekt_container_text {
+    display: block;
+    }
+
+    .projekt_text_spalt {
+      max-width: 460px;
+      white-space: normal;
+      margin-right: 6%;
+    }
+    .projekt_artiklar_wrapper{
+      width:100%;
+      white-space: normal;
   }
+  .artikelbild_right{
+    width: 80%;
+  }
+   
+  
 }

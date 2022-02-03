@@ -1,11 +1,11 @@
 function overLinkedIn(mOver){
-    mOver.innerHTML = "LinkedIn i ny flik";
+    mOver.innerHTML = "LinkedIn öppnas i ny flik";
 }
 function outLinkedIn(mOver){
     mOver.innerHTML = "Kontakta mig på LinkedIn";
 }
 function overMail(mOver){
-    mOver.innerHTML = "Mail-applikation öppnas";
+    mOver.innerHTML = "Öppnar mailklient";
 }
 
 function outMail(mOver){
