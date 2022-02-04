@@ -210,6 +210,7 @@ margin: 7px 5px 5px;
 
 .inledn_bild_container img {
   border-radius: 50%;
+  border: double white 10px;
   width: 250px;
   height: 250px;
 }
