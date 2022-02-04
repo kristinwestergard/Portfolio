@@ -350,7 +350,7 @@ margin: 7px 5px 5px;
 .projektinfo_ruta p,
 li {
   font-size: 18px;
-  line-height: 130%;
+  line-height: 150%;
   color: white;
 }
 
@@ -364,7 +364,7 @@ li {
 
 
 .projektinfo_ruta h3 {
-  font-size: 17px;
+  font-size: 18px;
   padding-bottom: 4%;
   color: white;
 }
@@ -383,8 +383,9 @@ li {
 
 .projekt_text_spalt p{
 font-size: 19px;
-line-height: 145%;
+line-height: 155%;
 padding-bottom: 8%;
+
 }
 .projekt_artikel_color1 {
   background-color: #B3CFF4;
@@ -432,9 +433,10 @@ padding-bottom: 8%;
 }
 .projekt_artiklar_wrapper h3 {
     font-size: 23px;
-    padding-bottom: 3%;
+    padding: 3% 0;
   }
 
+  /*artiklar. Sida Projekt - kampanjer */
   .work2_youtube {
     display: flex;
     flex-direction: row;
@@ -442,6 +444,21 @@ padding-bottom: 8%;
     flex: 1;
     white-space: normal;
     padding-left: 5%;
+  }
+
+  .work2_youtube .w2_project_card{
+    background-color: white;
+    flex-basis: 450px;
+    min-height: 300px;
+    margin-right: 30px;
+    margin-bottom: 70px;
+    padding: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  }
+  .work2_youtube .w2_project_card .card_text h3{
+    font-size: 19px;
+font-weight: bold;
+margin: 10px 5px 5px;
   }
  
   .iframecontainer {
