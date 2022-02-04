@@ -71,8 +71,7 @@ header {
   background-image: url("images/bg_img_start.png");
   background-repeat: no-repeat;
   margin-top: 20px;
-  padding: 5%;
-
+  padding: 5% 2% 5% 5%;
   margin: 15px auto;
   max-width: 1150px;
   white-space: nowrap;
@@ -480,7 +479,7 @@ margin: 10px 5px 5px;
 
 /*Sida Kontakt */
 .button {
-  background-color: #4CAF50;
+  background-color: #008b00;
   border: none;
   color: white;
   padding: 12px 32px;
