@@ -146,6 +146,7 @@ margin: 7px 5px 7px;
 
   color: white;
   background-color: rgb(2, 2, 2);
+  margin: 2px;
   }
 
 .card_text p{
@@ -388,8 +389,20 @@ li {
 font-size: 19px;
 line-height: 155%;
 padding-bottom: 8%;
-
 }
+
+.projekt_text_spalt li{
+  color: black;
+  font-size: 19px;
+  line-height: 155%;
+  padding-bottom: 10px;
+  }
+
+  .projekt_text_spalt ul{
+    
+    padding-bottom: 8%;
+    }
+
 .projekt_artikel_color1 {
   background-color: #B3CFF4;
   
