@@ -364,7 +364,9 @@ li {
 .projektinfo_ruta li {
   margin-left: 10px;
 }
-
+.projektinfo_ruta ul {
+  margin-top: 10px;
+}
 
 
 .projektinfo_ruta h3 {
@@ -415,6 +417,9 @@ padding-bottom: 8%;
 .projekt_artikel_color3 {
   background-color: #f4f4f4;
 }
+.artikelbild_right{
+  max-width: 500px;
+}
 
 .projekt_container_text {
   display: flex;
@@ -422,12 +427,30 @@ padding-bottom: 8%;
   padding: 3% 5%;
 }
 .projekt_container_bild{
-  padding: 2% 10% 2% 0;
-  padding: 3% 5%;
+  
+  padding: 1% 5% 3%;
 }
 
 .projekt_container_bild img{
   width: 100%;
+}
+
+.projekt_container_citat{
+  text-align: center;
+  justify-content: center;
+  background-color: #f4f4f4;
+  font-size: 20pt;
+  white-space:normal;
+  padding: 5% 20% 5%; 
+  border: #ffff;
+  border-style: solid;
+
+}
+
+.projekt_container_citat h4{
+ font-size: 12pt;
+ font-weight: lighter;
+ padding-top: 3%;
 }
 
 
