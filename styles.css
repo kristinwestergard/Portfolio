@@ -283,6 +283,14 @@ margin: 7px 5px 7px;
   background-repeat: no-repeat;
 }
 
+.projekt_dustin_startbanner {
+  position: relative;
+  margin: 15px auto 0;
+  max-width: 1150px;
+  background-image: url(images/dustin_startbild.png);
+  background-repeat: no-repeat;
+}
+
 .projekt_startbanner_kampanjer {
   position: relative;
   margin: 15px auto 0;
@@ -522,7 +530,7 @@ margin: 10px 5px 5px;
 
 /*Sida Kontakt */
 .button {
-  background-color: #008b00;
+  background-color: #4f9f74;
   border: none;
   color: white;
   padding: 12px 32px;
