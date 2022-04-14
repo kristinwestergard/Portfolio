@@ -7,6 +7,8 @@
   font-family: "Lato", sans-serif;
   
   
+  
+  
 
   /*
     För att centrera och begränsa bredd av innehåll till 1150 px. 
@@ -22,6 +24,9 @@
     */
 }
 /*navigation */
+p {line-height: 140%;
+}
+
 li,
 a {
   font-size: 20px;
@@ -90,10 +95,10 @@ header {
 
 .ingress {
   white-space: normal;
-  max-width: 450px;
+  max-width: 550px;
   padding: 30px 0;
   font-size: 22px;
-  line-height: 130%;
+  line-height: 140%;
   margin-bottom: 50px;
 }
 
@@ -206,7 +211,7 @@ margin: 7px 5px 7px;
   max-width: 500px;
   padding: 30px 0;
   font-size: 18px;
-  line-height: 130%;
+  line-height: 160%;
   font-weight: bold;
   color: rgb(12, 12, 71);
 }
@@ -314,6 +319,7 @@ margin: 7px 5px 7px;
 .projekt_start_text h1 {
   white-space: normal;
   font-size: 30px;
+  line-height: normal;
 }
 
 .projekt_start_text span {
@@ -438,8 +444,10 @@ padding-bottom: 8%;
   padding: 3% 5%;
 }
 .projekt_container_bild{
-  
   padding: 1% 5% 3%;
+}
+.projekt_container_bild_bred{
+  padding: 0;
 }
 
 .projekt_container_bild img{
