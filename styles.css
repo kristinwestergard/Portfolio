@@ -265,11 +265,20 @@ margin: 7px 5px 7px;
 .spalt1 {
   padding: 0 5% 0 15%;
 }
+.spalt1 p{
+  line-height: 150%;
+}
+.spalt2_wrapper p{
+  line-height: 150%;
+}
 
 .spalt2_wrapper {
   flex: 2;
   padding-left: 40px;
   padding-right: 70px;
+}
+.spalt2 {
+  padding-right: 50px;
 }
 
 .avdelare {
@@ -375,11 +384,15 @@ li {
   color: white;
 }
 
+
+
 .projektinfo_ruta p {
   padding-bottom: 7%;
+ 
 }
 .projektinfo_ruta li {
   margin-left: 10px;
+  color: #ffff;
 }
 .projektinfo_ruta ul {
   margin-top: 10px;
@@ -451,6 +464,9 @@ padding-bottom: 8%;
 }
 
 .projekt_container_bild img{
+  width: 100%;
+}
+.projekt_container_bild_bred img{
   width: 100%;
 }
 
@@ -711,7 +727,9 @@ height: auto;
 
   .spalt1 {
     padding: 0 40px;
+
   }
+ 
 
   /*(mobilvy) Projekt 1 */
 
