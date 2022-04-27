@@ -423,6 +423,10 @@ line-height: 155%;
 padding-bottom: 8%;
 }
 
+.projekt_text_spalt h3 span {
+  color:#B3CFF4;
+}
+
 .projekt_text_spalt li{
   color: black;
   font-size: 19px;
@@ -493,6 +497,13 @@ padding-bottom: 8%;
   flex-basis: 460px;
   white-space: normal;
   margin-right: 6%;
+}
+
+.projekt_text_spalt_linjera {
+  flex-basis: 460px;
+  white-space: normal;
+  margin-right: 6%;
+
 }
 .avdelare_artikel_projekt {
   width: 70px;
