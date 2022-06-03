@@ -313,6 +313,14 @@ margin: 7px 5px 7px;
   background-repeat: no-repeat;
 }
 
+.projekt_startbanner_illustration {
+  position: relative;
+  margin: 15px auto 0;
+  max-width: 1150px;
+  background-image: url(images/ill_startbild.jpg);
+  background-repeat: no-repeat;
+}
+
 .projekt_start_text {
   
   padding-top: 5%;
@@ -451,6 +459,11 @@ padding-bottom: 8%;
 .projekt_artikel_color3 {
   background-color: #f4f4f4;
 }
+
+.projekt_artikel_color4 {
+  background-color: #dad4c8;
+}
+
 .artikelbild_right{
   max-width: 500px;
 }
