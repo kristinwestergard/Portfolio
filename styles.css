@@ -759,8 +759,13 @@ height: auto;
   /*(mobilvy) Projekt 1 */
 
   .projekt_startbanner {
-    width: 100%;
     background-image: url(images/projekt1_startbild_mobil.png);
+    background-size: 100%;
+  }
+
+  .projekt_dustin_startbanner {
+    background-image: url(images/dustin_startbild_mobil.png);
+    background-size: 100%;
   }
 
   .projekt_start_text h1 {
