@@ -306,6 +306,14 @@ margin: 7px 5px 7px;
   background-repeat: no-repeat;
 }
 
+.projekt_riksbyggen_startbanner {
+  position: relative;
+  margin: 15px auto 0;
+  max-width: 1150px;
+  background-image: url(images/riksbyggen_startbild.png);
+  background-repeat: no-repeat;
+}
+
 .projekt_startbanner_kampanjer {
   position: relative;
   margin: 15px auto 0;
@@ -766,6 +774,11 @@ height: auto;
 
   .projekt_dustin_startbanner {
     background-image: url(images/dustin_startbild_mobil.png);
+    background-size: 100%;
+  }
+
+  .projekt_riksbyggen_startbanner {
+    background-image: url(images/riksbyggen_startbild_mobil.png);
     background-size: 100%;
   }
 
